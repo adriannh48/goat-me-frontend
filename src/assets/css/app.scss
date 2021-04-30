@@ -1,0 +1,54 @@
+.btn-purple {
+    background-color: #46427B;
+    color: #fff;
+}
+.card-header {
+    background-color: #46427B !important; 
+}
+
+.card-activity-sporty{
+    width: 40rem;
+}
+
+.custom-control-input:checked ~ .custom-control-label::before {
+    border-color: #46427B !important;
+    background-color: #46427B !important;
+}
+
+.calender {
+    width: 70%; 
+    height: 400px;
+    margin: 0 auto;
+}
+
+.vdatetime  input{
+    display: block;
+    width: 100%;
+    height: calc(1.5em + 0.75rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+}
+
+.theme-purple .vdatetime-popup__header,
+.theme-purple .vdatetime-calendar__month__day--selected > span > span,
+.theme-purple .vdatetime-calendar__month__day--selected:hover > span > span {
+  background: #46427B;
+}
+
+.theme-purple .vdatetime-year-picker__item--selected,
+.theme-purple .vdatetime-time-picker__item--selected,
+.theme-purple .vdatetime-popup__actions__button {
+  color: #46427B;
+}
+
+.vuecal__event {
+    color: #fff;
+    background-color: #46427B;
+}
